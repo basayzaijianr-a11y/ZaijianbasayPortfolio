@@ -1,0 +1,90 @@
+.main{
+height: 300px;
+}
+body{
+    background-color:rgb(221, 153, 6);
+}
+
+
+.HomeNav{
+   display: flex;
+   justify-content: flex-end;
+   margin: 20px;
+   list-style: none;
+   gap: 20px; 
+ 
+}
+.HomeNav a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+display: flex;
+justify-content: flex-end;
+background-color: rgb(100, 71, 7);
+position: sticky;
+top: 0;
+
+}
+
+.foot{
+    background-color:rgb(100, 71, 7);
+    text-align:center; clear:both; 
+    padding: 10px;
+}
+
+.aside{
+display: flex;
+border-radius: 50px;
+justify-content: flex-end;
+
+}
+.aside a:hover{
+    transform: rotate(45deg);
+}
+
+.HomeNav a:hover{
+    color: gold;
+}
+
+.div{
+    display: flex;
+}
+.box1{
+     padding: 20px;
+    height: 50px;
+    justify-content: flex-start;
+    background-color: yellow;
+    flex: 2;
+    box-shadow: 4px;
+}
+
+.box2{
+    padding: 20px;
+    height: 50px;
+    justify-content: flex-start;
+    background-color:rgb(100, 71, 7); 
+    flex: 2;
+}
+.box3{
+    padding: 20px;
+    height: 50px;
+    justify-content: flex-start;
+    background-color:yellow; 
+    flex: 2;
+}
+.box4{
+    padding: 20px;
+    height: 50px;
+    justify-content: flex-start;
+    background-color:rgb(100, 71, 7); 
+    flex: 2;
+}
+.button{
+    background-color: rgb(100, 71, 7); 
+}
+.button a:hover{
+    transform: rotate(45deg)
+}
